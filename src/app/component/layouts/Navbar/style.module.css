@@ -1,0 +1,27 @@
+
+.navbar {
+    background-color: #000000;
+    padding: 1rem;
+    height: 80px;
+}
+
+.navList {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navItem {
+    margin-right: 2rem;
+}
+
+.navLink {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.navLink:hover {
+    text-decoration: underline;
+}
