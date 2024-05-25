@@ -1,0 +1,64 @@
+/* FeaturedSlide.module.css */
+
+.featuredSlide {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slideContainer {
+    display: flex;
+    position: relative;
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+    transition: transform 0.5s ease;
+  }
+  
+  .slide img {
+    width: 100%;
+  }
+  
+  .prevButton,
+  .nextButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .prevButton {
+    left: 0;
+  }
+  
+  .nextButton {
+    right: 0;
+  }
+  
+  .navigation {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+  
+  .navButton {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .active {
+    background-color: gray;
+  }
+  
